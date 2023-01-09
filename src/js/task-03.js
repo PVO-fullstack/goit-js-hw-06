@@ -30,6 +30,4 @@ const makeImageEl = ({url, alt}) => {
 
 const makeImgList = images.map(makeImageEl).join('');
 
-console.log(makeImgList);
-
 galleryConteiner.insertAdjacentHTML("afterbegin", makeImgList);

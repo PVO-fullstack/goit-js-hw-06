@@ -1,6 +1,6 @@
-const quantityCategory = document.querySelector('#categories').children.length;
+const quantityCategories = document.querySelector('#categories').children.length;
 
-console.log(`Number of categories: ${quantityCategory}`)
+console.log(`Number of categories: ${quantityCategories}`)
 
 const listItemCategories = document.querySelectorAll('.item');
 

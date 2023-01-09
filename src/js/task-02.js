@@ -13,7 +13,7 @@ const makeIngredient = name => {
   const liEl = document.createElement('li');
   liEl.textContent = name;
   liEl.classList = 'item';
-  console.log(liEl);
+  // console.log(liEl);
   return liEl;
 };
 
